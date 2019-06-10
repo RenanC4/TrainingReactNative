@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "softWrench",
+    "description": "React Native App.",
+    "slug": "sw2",
+    "privacy": "public",
+    "sdkVersion": "30.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/img/icon.png",
+    "splash": {
+      "image": "./assets/img/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#3399ff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.softwrench",
+      "publishBundlePath": "ios/softwrench/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/softwrench/Supporting/shell-app-manifest.json"
+    },
+    "android": {
+      "package": "ControlTechnologySolutions.sw2",
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "mblabs",
+            "project": "sw2",
+            "authToken": "d41997fc776b4d7ca63de1c937be4a04204c210379504972b17b8c11c0d59c15"
+          }
+        }
+      ]
+    },
+    "isDetached": true,
+    "detach": {
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.8.4-sdk30.0.0-3de13133-1adc-4ba1-8569-a84011e570b4.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.8.1-sdk30.0.0-271c32ab-0715-4dfb-8270-ecead3679bb4.tar.gz"
+    },
+    "scheme": "expfae0b41fe66946798472474704ef935f"
+  }
+}

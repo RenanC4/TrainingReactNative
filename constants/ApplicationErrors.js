@@ -1,0 +1,9 @@
+export const PERSISTENCE = 'persistence';
+export const UNKNOWN = 'unknown';
+export const INVALID_EMAIL_OR_PASSWORD = 'invalid-email-or-password';
+export const EMAIL_ALREADY_USED = 'email-already-used';
+export const USER_NOT_FOUND = 'user-not-found';
+export const USER_ALREADY_HAS_RESTAURANT = 'user-already-has-restaurant';
+export const USER_HAS_NOT_RESTAURANT = 'user-has-not-restaurant';
+export const UNEXPECTED_ERROR = 'unexpected-error';
+export const ERRO_TAL = {CODE : 1, MESSAGE: 'LALLA'};

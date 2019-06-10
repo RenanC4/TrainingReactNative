@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "softWrench",
+    "description": "React Native App.",
+    "slug": "sw2",
+    "privacy": "public",
+    "sdkVersion": "30.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/img/icon.png",
+    "splash": {
+      "image": "./assets/img/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#3399ff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ControlTechnologySolutions.sw2"
+    },
+    "android": {
+      "package": "com.softwrench"
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "mblabs",
+            "project": "sw2",
+            "authToken": "d41997fc776b4d7ca63de1c937be4a04204c210379504972b17b8c11c0d59c15"
+          }
+        }
+      ]
+    }
+  }
+}
