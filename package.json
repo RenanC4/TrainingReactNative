@@ -15,7 +15,7 @@
   "dependencies": {
     "@expo/samples": "2.1.1",
     "apisauce": "^1.0.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "expo": "30.0.0",
     "expo-ads-admob": "^1.1.0",
     "expokit": "^1.7.1",
