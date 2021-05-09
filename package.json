@@ -20,7 +20,7 @@
     "expo-ads-admob": "^1.1.0",
     "expokit": "^1.7.1",
     "fetch-ponyfill": "^6.0.2",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "md5": "^2.2.1",
     "moment": "^2.22.2",
     "react": "16.3.1",
